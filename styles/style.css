@@ -1,0 +1,133 @@
+/**
+ * Noah Young
+ * 23 February 2020
+ */
+html,
+body {
+    font-family: 'Source Code Pro', monospace;
+}
+
+footer {
+    text-align: center;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding-left: 0;
+}
+
+/** 
+ * Button Changes
+ */
+.btn {
+    border: 2px solid #85BB65;
+    background-color: #85BB65;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: 0.1s;
+}
+
+.btn:hover {
+    background-color: inherit;
+    color: #414141;
+}
+
+/**
+ * Removing the arrows from the input boxes
+ */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/**
+ * Header and Logo Specifications
+ */
+.logo_header {
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+.logo_header img {
+    min-height: 100px;
+    max-height: 150px;
+}
+
+/**
+* Navigation
+*/
+li {
+    display: inline-block;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+li a {
+    background-color: inherit;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+li a:hover {
+    color: #85BB65;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+/**
+ * Footer Specfic Navigation
+ */
+.footer_nav li a {
+    font-size: 14px;
+}
+
+footer {
+    border-top: 1px solid #eee;
+}
+
+.footer_nav li a:hover {
+    background-color: inherit;
+    color: #85BB65;
+}
+
+/**
+ * Loan Input Form
+ */
+form {
+    font-size: 18px;
+}
+
+form input {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+    font-weight: 900;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    transition: 0.1s;
+}
+
+form input:focus {
+    outline: 0;
+    border-bottom-color: #85BB65;
+    transition: 0.1s;
+}
+
+label {
+    display: block;
+    padding-top: 50px;
+}
